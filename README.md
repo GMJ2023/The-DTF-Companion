@@ -12,7 +12,6 @@ It bridges the gap between the code and the craft — explaining how each moving
 
 ## 📚 Contents  
 - **Mapping Template Guide** – Managing multi-format CSV mappings using the `_ik+` suffix  
-- **Distributed Orchestration Strategy** – Scaling DTF across multiple VMs for high-volume processing  
 - *(More companion chapters to come as DTF evolves)*  
 
 ---
