@@ -69,7 +69,7 @@ These rules are interpreted by the transformation logic within `datatransformati
 | **Direct** | Passes the value through exactly as found in the input CSV. | `Pay rate → rate` |
 | **SplitR:**_Token_ | Splits a field into parts and takes the **right-hand** element. Common for names written as `Jones, Geoffrey` or fields with multiple bits of data in one cell. | See examples below |
 | **Split:**_Token_ | Splits a field into parts and takes the **left-hand** element. Common for names written in natural order like `Geoffrey Jones`. | See examples below |
-| **Default:**_Value_ | Inserts a fixed value into the output cell. Use `Default:` followed by the value you want, or leave blank (`Default:`) to produce an empty cell. | `Default:1` or `Default:` |
+| **Default:**_Value_ | Inserts a fixed value into the output cell. Use `Default:` followed by the value you want, or leave blank (`Default:`) to produce an empty cell. | `Default:value` or `Default:` |
 | **Dynamic** | Used when a sheet is laid out horizontally (with multiple rate types or headings running left to right). The column header itself becomes the variable — e.g. `OT1`, `OT2`, etc. | `Dynamic → OT1` |
 
 ---
