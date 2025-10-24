@@ -56,7 +56,7 @@ Each row in the mapping template includes a **TransformationRule** that tells DT
 | ------------------- | ------------------------------------------------------------ | ------------------------- |
 | **Direct**          | Passes the value through exactly as found in the input CSV.  | `Pay rate → rate`         |
 | **SplitR:***Token*  | Splits a field into parts and takes the **right-hand** element. Common for names written as `Jones, Geoffrey` or fields with multiple bits of data in one cell. | See examples below        |
-| **SplitL:***Token*  | Splits a field into parts and takes the **left-hand** element. Common for names written in natural order like `Geoffrey Jones`. | See examples below        |
+| **Split:***Token*  | Splits a field into parts and takes the **left-hand** element. Common for names written in natural order like `Geoffrey Jones`. | See examples below        |
 | **Default:***Value* | Inserts a fixed value into the output cell. Use `Default:` followed by the value you want, or leave blank (`Default:`) to produce an empty cell. | `Default:1` or `Default:` |
 | **Dynamic**         | Used when a sheet is laid out horizontally (with multiple rate types or headings running left to right). The column header itself becomes the variable — e.g. `OT1`, `OT2`, etc. | `Dynamic → OT1`           |
 
@@ -99,8 +99,8 @@ Geoffrey Jones
 You can map it using:
 
 ```
-Worker SplitL:Firstname
-Worker SplitL:Surname
+Worker Split:Firstname
+Worker Split:Surname
 ```
 
 DTF will output:
@@ -162,4 +162,5 @@ If you’re viewing this guide on GitHub, you’ll see a sample screenshot of th
 ------
 
 **Authored by Geoffrey Jones**
+
  *Part of The DTF Companion — a growing collection of guides and documentation for the Data Transformation Framework.*
