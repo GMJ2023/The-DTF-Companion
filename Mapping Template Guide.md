@@ -47,6 +47,7 @@ Agencies whose data arrives in PDF form are processed separately through the **P
 ---
 
 ## 🖼️ Visual Example  
-![template-mapping](https://github.com/GMJ2023/assets/blob/main/ikChar.png)
+![template-mapping](https://github.com/GMJ2023/assets/blob/main/mapping-template-example.jpg)
 
 If you’re viewing this guide on GitHub, you’ll see a sample screenshot of the `mapping-template.csv` file showing `_ik+` usage:
+
