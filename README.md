@@ -12,7 +12,7 @@ It bridges the gap between the code and the craft — explaining how each moving
 
 ## 📚 Contents  
 - **Mapping Template Guide** – Managing multi-format CSV mappings using the `_ik+` suffix
-- **Payroll Automation Folders Guide** explains how the DTF folders work.  
+- **DTF Folder Guide** explains how the DTF folders work.  
 - *(More companion chapters to come as DTF evolves)*  
 
 ---
