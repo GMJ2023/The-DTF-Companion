@@ -1,4 +1,4 @@
-# 🗂️ DTF Folder Companion
+# 🗂️ DTF Folder Guide
 ---
 Welcome!  
 This guide explains how the **Payroll Automation folders** work — what goes where, what happens automatically, and where to find your processed files.  
