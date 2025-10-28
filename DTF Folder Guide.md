@@ -101,7 +101,8 @@ The **PDF Drop Zone** is where the system reads, extracts, and converts PDF time
 The system automatically:
 1. **Reads the PDF** and extracts the text (even from scanned or password-protected files, when credentials are stored in Zoho CRM).  
 2. **Parses the data** into a standard CSV layout.  
-3. **Groups files by agency**, combining all PDFs from the same agency into **one CSV file** — instead of creating multiple separate files.
+3. **Groups files by agency**, combining all PDFs from the same agency into **one CSV file** — instead of creating multiple separate files.  
+4. The resulting combined CSV file is first created and stored safely in the **`CSV Paradise`** folder — the system’s working area for new CSVs.
 
 This means that if you have **10 PDFs from the same agency**, you’ll end up with **one CSV file** containing 10 rows — one for each worker or timesheet — rather than 10 individual CSVs.
 
@@ -114,8 +115,8 @@ This means that if you have **10 PDFs from the same agency**, you’ll end up wi
 | 1 | PDF file dropped into `Timesheets` |
 | 2 | Moved to `PDF Drop Zone` by the Transform Files flow |
 | 3 | System extracts text and parses it into CSV format |
-| 4 | CSVs from the same agency are **combined into one file** |
-| 5 | Every 10 minutes, the scheduler checks for completed CSVs |
+| 4 | CSVs from the same agency are **combined into one file** and created in `CSV Paradise` |
+| 5 | Every 10 minutes, the scheduler checks for CSVs in `CSV Paradise` |
 | 6 | When ready, the CSV is **moved to the `CSV Drop Zone`** to join the main processing flow |
 
 ---
@@ -129,11 +130,14 @@ Moved to PDF Drop Zone
        ↓
 Parsed → Data extracted → Combined into 1 CSV file
        ↓
+CSV created in CSV Paradise
+       ↓
 Scheduler checks every 10 mins
        ↓
 CSV moved to CSV Drop Zone
        ↓
 Joins normal data transformation process
+
 ```
 ---
 
