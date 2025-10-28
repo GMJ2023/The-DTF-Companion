@@ -202,7 +202,7 @@ This flow controls when files are allowed to move forward for upload to **My Dig
 
 ---
 
-### 🕹️ The Virtual Pause Button
+### 🕹️ Using the Zoho Flow “Release File to MDA” as a Virtual Pause Button
 
 Sometimes it’s useful to temporarily pause automatic uploads — for example, while you review files or wait for confirmations.
 
