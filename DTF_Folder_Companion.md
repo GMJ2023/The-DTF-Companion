@@ -1,7 +1,7 @@
 # 🗂️ DTF Folder Companion
 ---
 Welcome!  
-This guide explains how your **Payroll Automation folders** work — what goes where, what happens automatically, and where to find your processed files.  
+This guide explains how the **Payroll Automation folders** work — what goes where, what happens automatically, and where to find your processed files.  
 
 It’s designed for **payroll staff** to understand the process in a clear, simple way — no technical steps required.  
 From the moment you drop a file into **Timesheets**, the **Zoho RPA Flow called “Transform Files”** takes over — sorting, converting, and preparing everything automatically.  
