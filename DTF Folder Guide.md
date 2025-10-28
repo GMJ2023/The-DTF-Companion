@@ -188,6 +188,47 @@ Scheduler checks every 10 mins → Moves back when safe
 ```
 ---
 
+## 🚦 Releasing Files to My Digital Accounts (MDA)
+
+Once all transformations are complete and the `.xlsx` files are ready, the **Zoho Flow called “Release File to MDA”** takes over.  
+This flow controls when files are allowed to move forward for upload to **My Digital Accounts**.
+
+---
+
+### 🕹️ The Virtual Pause Button
+
+Sometimes it’s useful to temporarily pause automatic uploads — for example, while you review files or wait for confirmations.
+
+The **Virtual Pause Button** in Zoho Flow allows this:  
+- When **disabled**, the process pauses — files will stay safely in the **`AssembleXLSX`** folder.  
+- When **enabled**, the flow resumes — files move automatically into the **`Formatted`** folder for upload.
+
+You don’t need to move anything manually — just toggle the flow on or off as needed.
+
+---
+
+### 📤 When the Flow Is Enabled
+
+When the **“Release File to MDA”** flow is enabled:
+1. Files in **`AssembleXLSX`** are automatically moved to the **`Formatted`** folder.  
+2. From there, they are processed and uploaded through the **My Digital Accounts** website.  
+3. Once upload and processing are complete, the files are transferred to the **`Processed`** folder automatically.
+
+---
+
+### Example Flow
+
+```text
+Release File to MDA – Enabled
+       ↓
+AssembleXLSX → Formatted
+       ↓
+Uploaded through My Digital Accounts
+       ↓
+Processed → Moved to final archive
+```
+---
+
 ## ✅ `Processed` – Completed & Archived
 
 Once a file has been **successfully uploaded and processed** through the **My Digital Accounts** website, it reaches its final destination — the **`Processed`** folder.
