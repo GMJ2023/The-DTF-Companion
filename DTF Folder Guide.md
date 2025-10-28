@@ -49,7 +49,7 @@ The **Zoho RPA Flow** called **Transform Files** monitors this folder and automa
 ---
 
 ### 💻 What Happens Next
---
+
 Once a **CSV file** is present in the **Timesheets** folder, it’s automatically picked up by the **DTF process** for uploading and transformation.  
 DTF only accepts **CSV** files, so Excel and PDF files are always converted first by the **Transform Files** flow.
 
