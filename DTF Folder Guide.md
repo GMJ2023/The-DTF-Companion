@@ -3,7 +3,7 @@
 Welcome!  
 This guide explains how the **Payroll Automation folders** work — what goes where, what happens automatically, and where to find your processed files.  
 
-It’s designed for **payroll staff** to understand the process in a clear, simple way — no technical steps required.  
+It’s written as a simple, practical guide to help you see what happens behind the scenes — no technical detail needed.
 From the moment you drop a file into **Timesheets**, the **Zoho RPA Flow called “Transform Files”** takes over — sorting, converting, and preparing everything automatically.  
 
 Each folder plays a specific part in this journey, quietly working in the background to keep your data organised, consistent, and always ready for upload to **My Digital Accounts**.
