@@ -204,7 +204,12 @@ Register-ObjectEvent $watch Created -Action {
 - Add additional agency-specific parsers   
 - Implement retry queue for transient errors  
 - Add optional email notification for failures
-
 ---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
 
 
