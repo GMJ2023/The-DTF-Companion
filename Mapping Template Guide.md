@@ -156,3 +156,10 @@ If you’re viewing this guide on GitHub, you’ll see a sample screenshot of th
 
 **Authored by Geoffrey Jones**  
 *Part of The DTF Companion — a growing collection of guides and documentation for the Data Transformation Framework.*
+---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
