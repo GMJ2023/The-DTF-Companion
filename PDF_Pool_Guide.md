@@ -191,14 +191,6 @@ Register-ObjectEvent $watch Created -Action {
 
 ---
 
-## Conventions
-
-- British English spelling  
-- No Oxford commas  
-- Windows-first file paths
-
----
-
 ## Roadmap
 
 - Add additional agency-specific parsers   
