@@ -285,5 +285,10 @@ Process complete – ready for the next cycle
 From start to finish, every folder has its role.  
 The system quietly handles conversions, checks, and uploads —  
 everything happens automatically, with no manual steps or missed files. ✅
-
 ---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
