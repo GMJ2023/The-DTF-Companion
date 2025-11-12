@@ -76,28 +76,6 @@ It manages the entire execution chain safely and ensures that only one PDF is pr
 
 ---
 
-## Secondary Script — `write_text_and_invoke.ps1`
-
-This script performs the **direct interaction with the Catalyst function**.
-
-### Functions
-
-1. **PDF Text Handling**  
-   - Receives two arguments: the full path and filename of the PDF.  
-   - Reads extracted text (from RPA or preprocessed OCR result).  
-   - Writes the text into a temporary `.txt` file for Catalyst input.
-
-2. **Catalyst Function Invocation**  
-   - Calls the `pdfPool_node` function hosted on Zoho Catalyst.  
-   - The function reassembles and parses the text using the appropriate agency parser.  
-   - Returns a base64-encoded CSV which is decoded and written to CSV Paradise.
-
-3. **Cleanup**  
-   - Deletes the temporary `.txt` file after use.  
-   - Returns exit code 0 if successful or 1 if an error occurs.
-
----
-
 ## Node.js Components
 
 Each agency parser implements format-specific logic. The `smart_parser.js` router auto-detects which parser to use based on header text.
@@ -186,7 +164,8 @@ After successful processing:
 
 ```powershell
 # From C:\binary-proxy
-.un_pdf_parser_wrapper.ps1
+.
+un_pdf_parser_wrapper.ps1
 ```
 
 The script will automatically detect the newest PDF in the configured Drop Zone, process it, and write CSVs to CSV Paradise.
