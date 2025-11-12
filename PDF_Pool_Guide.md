@@ -17,16 +17,10 @@ File Monitor (RPA or Windows Watcher)
         ↓
 run_pdf_parser_wrapper.ps1
         ↓
-write_text_and_invoke.ps1
-        ↓
-Catalyst pdfPool_node function
-        ↓
 flexParser / index_4Rec / index_TXM / TXMParser
         ↓
 CSV Paradise (OneDrive)
 ```
-
----
 
 ## File Structure
 
@@ -34,7 +28,6 @@ CSV Paradise (OneDrive)
 C:\binary-proxy
 │
 ├─ run_pdf_parser_wrapper.ps1    # Entry point, handles locking, logging, and file lifecycle
-├─ write_text_and_invoke.ps1     # Writes text file and invokes Catalyst function
 ├─ flexParser.js                 # Utility for decloaking and row extraction (4Rec)
 ├─ index_4Rec.js                 # 4 Recruitment entry point
 ├─ index_TXM.js                  # TXM entry point
@@ -154,7 +147,7 @@ After successful processing:
 
 ### 4. Error Recovery
 
-- If a failure occurs during Catalyst invocation or file move, the wrapper catches it.  
+- If a failure occurs during invocation or file move, the wrapper catches it.  
 - Lock files are deleted to prevent deadlocks.  
 - Logs record the full error chain for debugging.
 
