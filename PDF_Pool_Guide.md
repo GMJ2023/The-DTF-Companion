@@ -208,14 +208,10 @@ Register-ObjectEvent $watch Created -Action {
 
 ## Roadmap
 
-- Add additional agency-specific parsers  
-- Integrate PDF image OCR fallback  
+- Add additional agency-specific parsers   
 - Implement retry queue for transient errors  
 - Add optional email notification for failures
 
 ---
 
-## License
-
-Private internal project. Replace with a licence file before public distribution.
 
