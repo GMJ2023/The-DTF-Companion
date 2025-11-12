@@ -22,3 +22,10 @@ It bridges the gap between the code and the craft — explaining how each moving
 Creator and Architect of the Data Transformation Framework (DTF)  
 
 > “Every framework needs a companion — something that explains not just how it runs, but how it thinks.”
+---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
