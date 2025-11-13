@@ -2,7 +2,7 @@
 
 This guide documents the automated monitoring tasks used within the RPA and PDF processing ecosystem. It combines information from:
 
-- **Monitor Output Log.xml**
+- **MonitorOutput Log.xml**
 - **MonitorBrowser.xml**
 - **monitor_output_log.ps1**
 - **monitor_browser.ps1**
@@ -14,9 +14,6 @@ These tasks ensure continuous, self-healing operation of automation components.
 ## 1. Monitor Output Log Task
 
 This scheduled task monitors `output_log_.log` for anomalies or low row counts and triggers webhook-based alerts.
-
-### Source File
-`Monitor Output Log.xml` fileciteturn51file0
 
 ### Behaviour Summary
 - Runs **every 5 minutes** after system boot.
