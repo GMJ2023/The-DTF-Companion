@@ -443,8 +443,10 @@ and use the same Zoho Flow webhook for human-readable notifications.
 - Monitoring logs under `C:\binary-proxy\service log`
 
 ---
+**Copyright © 2025 Geoffrey Jones**
 
-## 8. Ownership
+**All rights reserved.**
 
-© 2025 Geoffrey Jones. All rights reserved.  
-Unauthorised copying or distribution of this material, in whole or in part, is strictly prohibited.
+This codebase and all associated materials are proprietary to Geoffrey Jones.
+ No part of this work may be copied reproduced modified distributed or used for any purpose other than the specific engagement for which access was granted.
+ Any other use requires prior written consent from the copyright holder.
