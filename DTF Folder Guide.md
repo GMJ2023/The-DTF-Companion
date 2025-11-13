@@ -285,10 +285,12 @@ Process complete – ready for the next cycle
 From start to finish, every folder has its role.  
 The system quietly handles conversions, checks, and uploads —  
 everything happens automatically, with no manual steps or missed files. ✅
+
 ---
+**Copyright © 2025 Geoffrey Jones**
 
-Copyright © 2025 Geoffrey Jones
-All rights reserved.
+**All rights reserved.**
 
-This repository and its contents are proprietary and confidential.
-No part may be copied, modified, or distributed without prior written consent.
+This codebase and all associated materials are proprietary to Geoffrey Jones.
+ No part of this work may be copied reproduced modified distributed or used for any purpose other than the specific engagement for which access was granted.
+ Any other use requires prior written consent from the copyright holder.
