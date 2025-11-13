@@ -28,7 +28,7 @@ CSV Paradise (OneDrive)
 C:\binary-proxy
 │
 ├─ run_pdf_parser_wrapper.ps1    # Entry point, handles locking, logging, and file lifecycle
-├─ flexParser.js                 # Utility for decloaking and row extraction (4Rec)
+├─ flexParser.js                 # Utility for decloaking and row extraction (4Recruit)
 ├─ index_4Rec.js                 # 4 Recruitment entry point
 ├─ index_TXM.js                  # TXM entry point
 ├─ TXMParser.js                  # TXM parser logic
